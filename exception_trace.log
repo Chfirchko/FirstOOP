@@ -1,0 +1,19 @@
+
+firstoop: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+TRIANGLE            make @2                triangle_rule_p1:            
+<0000029DF9ACD3B8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @21                                            
+<0000029DF9ACC588>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000029DF9ACC588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
